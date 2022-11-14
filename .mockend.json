@@ -24,6 +24,7 @@
         "maxLength": 10
       }
     },
+    "parent": { "int": [null,2,4,7] },
     "created_by_email": {
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     },
