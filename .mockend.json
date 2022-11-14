@@ -1,5 +1,5 @@
 {
-  "attribute": {
+  "Attribute": {
     "name": {
       "loremWords": {
         "minLength": 5,
