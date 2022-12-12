@@ -32,4 +32,22 @@
       "regexp": "#[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
     }
   }
+  "Post": {
+    "title": { "string": {} },
+"slug": {
+      "loremWords": {
+        "minLength": 5,
+        "maxLength": 10
+      }
+    },
+    "comments": {
+      "hasMany": "Comment"
+    }
+  },
+  "Comment": {
+    "body": { "string": {} },
+    "post": {
+      "belongsTo": "Post"
+    }
+  }
 }
