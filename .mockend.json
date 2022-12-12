@@ -40,6 +40,12 @@
         "maxLength": 10
       }
     },
+     "description": {
+         "loremParagraphs": {
+        "minLength": 10,
+        "maxLength": 100
+      }
+    },
     "comments": {
       "hasMany": "Comment"
     }
